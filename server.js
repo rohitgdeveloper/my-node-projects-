@@ -54,8 +54,8 @@ app.get('/home',(req,res) =>{
 app.get('/about',(req,res) =>{
   //res.send('About page');
   res.render('about.hbs',{
-    titleName:'About',
-    subject:'About Page title'
+    titleName:'About New',
+    subject:'About Page title New'
   });
 });
 
